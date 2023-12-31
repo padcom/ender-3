@@ -1,0 +1,2360 @@
+{
+  "general": {
+    "printername": "Ender 3",
+    "dateFormat": "2-digits",
+    "language": "en"
+  },
+  "console": {
+    "entryStyle": "compact",
+    "hideWaitTemperatures": true,
+    "height": 527
+  },
+  "gcodehistory": {
+    "entries": [
+      "SCREWS_TILT_CALCULATE",
+      "BED_MESH_CALIBRATE",
+      "BED_MESH_CALIBRATE Method=manual",
+      "PROBE_CALIBRATE",
+      "PROBE_CALIBRATE",
+      "BED_MESH_CALIBRATE Method=manual",
+      "save_config",
+      "SCREWS_TILT_CALCULATE",
+      "BED_MESH_CALIBRATE Method=manual",
+      "save_config",
+      "SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500\n",
+      "TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.005\n",
+      "SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500\n",
+      "TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.005\n",
+      "SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY=1 ACCEL=500\n",
+      "TUNING_TOWER COMMAND=SET_PRESSURE_ADVANCE PARAMETER=ADVANCE START=0 FACTOR=.005\n",
+      "ACCELEROMETER_QUERY",
+      "ACCELEROMETER_QUERY",
+      "ACCELEROMETER_QUERY",
+      "ACCELEROMETER_QUERY",
+      "ACCELEROMETER_QUERY",
+      "MEASURE_AXES_NOISE",
+      "MEASURE_AXES_NOISE",
+      "SHAPER_CALIBRATE AXIS=Y",
+      "MEASURE_AXES_NOISE",
+      "SHAPER_CALIBRATE AXIS=X",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "BED_MESH_CALIBRATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "SCREWS_TILT_CALCULATE",
+      "BED_MESH_CALIBRATE"
+    ]
+  },
+  "control": {
+    "extruder": {
+      "feedamount": 10,
+      "feedrate": 2,
+      "showEstimatedExtrusionInfo": true
+    },
+    "style": "bars",
+    "hideDuringPrint": false,
+    "enableXYHoming": true,
+    "stepsZ": [
+      25,
+      1,
+      0.1,
+      100
+    ],
+    "stepsXY": [
+      100,
+      10,
+      1,
+      25
+    ]
+  },
+  "dashboard": {
+    "nonExpandPanels": {
+      "desktop": [],
+      "widescreen": []
+    },
+    "widescreenLayout2": [
+      {
+        "name": "webcam",
+        "visible": true
+      },
+      {
+        "name": "miniconsole",
+        "visible": true
+      }
+    ],
+    "widescreenLayout1": [
+      {
+        "name": "extruder-control",
+        "visible": true
+      },
+      {
+        "name": "miscellaneous",
+        "visible": true
+      }
+    ],
+    "desktopLayout2": [
+      {
+        "name": "webcam",
+        "visible": true
+      },
+      {
+        "name": "miniconsole",
+        "visible": true
+      },
+      {
+        "name": "macrogroup_02ccd9a5-0a87-449b-8625-d09966184542",
+        "visible": true
+      }
+    ],
+    "desktopLayout1": [
+      {
+        "name": "temperature",
+        "visible": true
+      },
+      {
+        "name": "toolhead-control",
+        "visible": true
+      },
+      {
+        "name": "extruder-control",
+        "visible": true
+      },
+      {
+        "name": "machine-settings",
+        "visible": true
+      },
+      {
+        "name": "miscellaneous",
+        "visible": true
+      }
+    ],
+    "tabletLayout2": [
+      {
+        "name": "temperature",
+        "visible": true
+      },
+      {
+        "name": "miniconsole",
+        "visible": true
+      },
+      {
+        "name": "macrogroup_02ccd9a5-0a87-449b-8625-d09966184542",
+        "visible": true
+      }
+    ],
+    "tabletLayout1": [
+      {
+        "name": "webcam",
+        "visible": true
+      },
+      {
+        "name": "toolhead-control",
+        "visible": true
+      },
+      {
+        "name": "extruder-control",
+        "visible": true
+      },
+      {
+        "name": "machine-settings",
+        "visible": true
+      },
+      {
+        "name": "miscellaneous",
+        "visible": true
+      }
+    ],
+    "widescreenLayout3": [
+      {
+        "name": "macrogroup_02ccd9a5-0a87-449b-8625-d09966184542",
+        "visible": true
+      },
+      {
+        "name": "temperature",
+        "visible": true
+      },
+      {
+        "name": "toolhead-control",
+        "visible": true
+      },
+      {
+        "name": "machine-settings",
+        "visible": true
+      }
+    ]
+  },
+  "gcodeViewer": {
+    "klipperCache": {
+      "kinematics": "cartesian",
+      "axis_maximum": [
+        253,
+        190,
+        150,
+        0
+      ],
+      "axis_minimum": [
+        0,
+        -40,
+        -10,
+        0
+      ]
+    }
+  },
+  "heightmap": {
+    "activecolorscheme": "hsv"
+  },
+  "macros": {
+    "mode": "expert",
+    "macrogroups": {
+      "02ccd9a5-0a87-449b-8625-d09966184542": {
+        "name": "Movement",
+        "color": "warning",
+        "colorCustom": "#fff",
+        "showInStandby": true,
+        "showInPause": false,
+        "showInPrinting": false,
+        "macros": [
+          {
+            "pos": 1,
+            "name": "FORCE_Z_up_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 2,
+            "name": "FORCE_Z_DOWN_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "FORCE_X_LEFT_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 4,
+            "name": "FORCE_X_RIGHT_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 5,
+            "name": "FORCE_Y_BACK_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 6,
+            "name": "FORCE_Y_FRONT_10",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          }
+        ]
+      }
+    }
+  },
+  "uiSettings": {
+    "displayCancelPrint": true,
+    "navigationStyle": "iconsOnly",
+    "boolHideUploadAndPrintButton": false,
+    "theme": "light",
+    "confirmOnEmergencyStop": false,
+    "tempchartHeight": 212
+  },
+  "view": {
+    "tempchart": {
+      "autoscale": false,
+      "hideMonitors": false,
+      "hideMcuHostSensors": false,
+      "boolTempchart": true
+    },
+    "heightmap": {
+      "scaleZMax": 1,
+      "mesh": true,
+      "flat": false,
+      "scaleGradient": true,
+      "wireframe": true,
+      "probed": false
+    },
+    "configfiles": {
+      "countPerPage": -1
+    },
+    "history": {
+      "countPerPage": -1,
+      "toggleChartCol2": "chart",
+      "toggleChartCol3": "filament_usage",
+      "hidePrintStatus": [
+        "others"
+      ],
+      "hideColums": [
+        "modified",
+        "first_layer_height",
+        "layer_height",
+        "size",
+        "filament_total",
+        "start_time",
+        "end_time",
+        "print_duration",
+        "first_layer_extr_temp",
+        "first_layer_bed_temp"
+      ],
+      "selectedJobs": [
+        {
+          "end_time": 1703956666.3791811,
+          "filament_used": 70.97061999999984,
+          "filename": "Ender 3 Cable clip.gcode",
+          "metadata": {
+            "size": 1050413,
+            "modified": 1703956369.266541,
+            "uuid": "deb99215-8101-40a6-992a-0a175aece0ca",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 15027,
+            "gcode_end_byte": 1036546,
+            "layer_count": 48,
+            "object_height": 9.6,
+            "estimated_time": 1129,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1478.8,
+            "filament_weight_total": 4.41,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1056,
+                "relative_path": ".thumbs/Ender 3 Cable clip-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 9271,
+                "relative_path": ".thumbs/Ender 3 Cable clip-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 80.67493976100377,
+          "status": "error",
+          "start_time": 1703956456.9538164,
+          "total_duration": 209.49890773200605,
+          "job_id": "000084",
+          "exists": true
+        },
+        {
+          "end_time": 1703956252.5346448,
+          "filament_used": 47.051320000000025,
+          "filename": "Ender 3 Cable clip.gcode",
+          "metadata": {
+            "size": 1042363,
+            "modified": 1703956040.4120517,
+            "uuid": "0fb0f3a6-800f-489e-ab3f-99a29bac5e25",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 14999,
+            "gcode_end_byte": 1028496,
+            "layer_count": 48,
+            "object_height": 9.6,
+            "estimated_time": 1129,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1478.8,
+            "filament_weight_total": 4.41,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1056,
+                "relative_path": ".thumbs/Ender 3 Cable clip-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 9269,
+                "relative_path": ".thumbs/Ender 3 Cable clip-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 48.41366055399703,
+          "status": "klippy_shutdown",
+          "start_time": 1703956043.6399744,
+          "total_duration": 208.7824903369983,
+          "job_id": "000083",
+          "exists": false
+        },
+        {
+          "end_time": 1703906720.3529449,
+          "filament_used": 81.28864999999995,
+          "filename": "spindle_carriage.gcode",
+          "metadata": {
+            "size": 52161815,
+            "modified": 1703883794.3644054,
+            "uuid": "f417875b-f9c8-4496-b39d-12450e357f39",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 17469,
+            "gcode_end_byte": 52147920,
+            "layer_count": 350,
+            "object_height": 70,
+            "estimated_time": 37388,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 72070.96,
+            "filament_weight_total": 214.96,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1298,
+                "relative_path": ".thumbs/spindle_carriage-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 12134,
+                "relative_path": ".thumbs/spindle_carriage-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 65.71748461000004,
+          "status": "klippy_shutdown",
+          "start_time": 1703906513.1726913,
+          "total_duration": 206.90323242100004,
+          "job_id": "000081",
+          "exists": true
+        },
+        {
+          "end_time": 1703905014.9221392,
+          "filament_used": 2954.8662900000086,
+          "filename": "spindle_carriage.gcode",
+          "metadata": {
+            "size": 52161815,
+            "modified": 1703883794.3644054,
+            "uuid": "f417875b-f9c8-4496-b39d-12450e357f39",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 17469,
+            "gcode_end_byte": 52147920,
+            "layer_count": 350,
+            "object_height": 70,
+            "estimated_time": 37388,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 72070.96,
+            "filament_weight_total": 214.96,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1298,
+                "relative_path": ".thumbs/spindle_carriage-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 12134,
+                "relative_path": ".thumbs/spindle_carriage-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 1933.3582019179998,
+          "status": "klippy_shutdown",
+          "start_time": 1703903011.1038241,
+          "total_duration": 2003.7471999640002,
+          "job_id": "000080",
+          "exists": true
+        },
+        {
+          "end_time": 1703902970.1349065,
+          "filament_used": 0,
+          "filename": "spindle_carriage.gcode",
+          "metadata": {
+            "size": 52161815,
+            "modified": 1703883794.3644054,
+            "uuid": "f417875b-f9c8-4496-b39d-12450e357f39",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 17469,
+            "gcode_end_byte": 52147920,
+            "layer_count": 350,
+            "object_height": 70,
+            "estimated_time": 37388,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 72070.96,
+            "filament_weight_total": 214.96,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1298,
+                "relative_path": ".thumbs/spindle_carriage-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 12134,
+                "relative_path": ".thumbs/spindle_carriage-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703902864.794522,
+          "total_duration": 105.12744933500016,
+          "job_id": "00007F",
+          "exists": true
+        },
+        {
+          "end_time": 1703902278.8234,
+          "filament_used": 0,
+          "filename": "Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 66733,
+            "modified": 1703901637.3102467,
+            "uuid": "ee91245a-4965-4604-ba5f-dc4f2aaadc23",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 2740,
+            "gcode_end_byte": 52871,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 365.38,
+            "filament_weight_total": 1.09,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 590,
+                "relative_path": ".thumbs/Ender 3 Bed level test-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 1533,
+                "relative_path": ".thumbs/Ender 3 Bed level test-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703902237.199486,
+          "total_duration": 41.53753524500007,
+          "job_id": "00007D",
+          "exists": true
+        },
+        {
+          "end_time": 1703877984.2711143,
+          "filament_used": 135.2679399999838,
+          "filename": "Z-84 Motor mount for 1806 motor.gcode",
+          "metadata": {
+            "size": 3845106,
+            "modified": 1703877685.7718716,
+            "uuid": "8c84521c-9ffc-44cc-ba3e-35f9fbf588d6",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 13151,
+            "gcode_end_byte": 3831223,
+            "layer_count": 145,
+            "object_height": 29,
+            "estimated_time": 1937,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 2199.87,
+            "filament_weight_total": 6.56,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 910,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 8406,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 153.1011611389995,
+          "status": "error",
+          "start_time": 1703877688.7078478,
+          "total_duration": 295.66823473099976,
+          "job_id": "000079",
+          "exists": false
+        },
+        {
+          "end_time": 1703874172.3708444,
+          "filament_used": 0,
+          "filename": "Z-84 Motor mount for 1806 motor_PLA_14m22s.gcode",
+          "metadata": {
+            "size": 1942977,
+            "modified": 1703874001.986664,
+            "uuid": "86809691-423d-4e04-8beb-4f231e34e280",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 11333,
+            "gcode_end_byte": 1929075,
+            "layer_count": 34,
+            "object_height": 6.8,
+            "estimated_time": 862,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1117.69,
+            "filament_weight_total": 3.33,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1042,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 7011,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "error",
+          "start_time": 1703874145.285922,
+          "total_duration": 27.08292879199996,
+          "job_id": "000076",
+          "exists": true
+        },
+        {
+          "end_time": 1703874073.1055245,
+          "filament_used": 0,
+          "filename": "Z-84 Motor mount for 1806 motor_PLA_14m22s.gcode",
+          "metadata": {
+            "size": 1942977,
+            "modified": 1703874001.986664,
+            "uuid": "86809691-423d-4e04-8beb-4f231e34e280",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 11333,
+            "gcode_end_byte": 1929075,
+            "layer_count": 34,
+            "object_height": 6.8,
+            "estimated_time": 862,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1117.69,
+            "filament_weight_total": 3.33,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1042,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 7011,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703874034.4508274,
+          "total_duration": 38.51542222499995,
+          "job_id": "000075",
+          "exists": true
+        },
+        {
+          "end_time": 1703873499.9207933,
+          "filament_used": 0,
+          "filename": "Z-84 Motor mount for 1806 motor_PLA_14m22s.gcode",
+          "metadata": {
+            "size": 1943100,
+            "modified": 1703873176.6893988,
+            "uuid": "bd8bced6-3c6e-4af4-a64a-9ff5c07720b7",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 11333,
+            "gcode_end_byte": 1929094,
+            "layer_count": 34,
+            "object_height": 6.8,
+            "estimated_time": 862,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1117.69,
+            "filament_weight_total": 3.33,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1042,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 7011,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703873440.9896774,
+          "total_duration": 58.928572321,
+          "job_id": "000074",
+          "exists": false
+        },
+        {
+          "end_time": 1703873206.9399137,
+          "filament_used": 0,
+          "filename": "Z-84 Motor mount for 1806 motor_PLA_14m22s.gcode",
+          "metadata": {
+            "size": 1943100,
+            "modified": 1703873176.6893988,
+            "uuid": "bd8bced6-3c6e-4af4-a64a-9ff5c07720b7",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 11333,
+            "gcode_end_byte": 1929094,
+            "layer_count": 34,
+            "object_height": 6.8,
+            "estimated_time": 862,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 205,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1117.69,
+            "filament_weight_total": 3.33,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1042,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 7011,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703873189.634308,
+          "total_duration": 17.254146295999817,
+          "job_id": "000073",
+          "exists": false
+        },
+        {
+          "end_time": 1703872792.7218442,
+          "filament_used": 0,
+          "filename": "Z-84 Motor mount for 1806 motor_PLA_14m22s.gcode",
+          "metadata": {
+            "size": 1943131,
+            "modified": 1703872759.848223,
+            "uuid": "e68130ab-6ad2-4d82-b13d-3f28dac07e8d",
+            "slicer": "OrcaSlicer",
+            "slicer_version": "1.8.1",
+            "gcode_start_byte": 11333,
+            "gcode_end_byte": 1929125,
+            "layer_count": 34,
+            "object_height": 6.8,
+            "estimated_time": 862,
+            "nozzle_diameter": 0.4,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "first_layer_extr_temp": 185,
+            "first_layer_bed_temp": 50,
+            "chamber_temp": 0,
+            "filament_name": "Spectrum PLA Premium",
+            "filament_type": "PLA",
+            "filament_total": 1117.69,
+            "filament_weight_total": 3.33,
+            "thumbnails": [
+              {
+                "width": 32,
+                "height": 32,
+                "size": 1042,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-32x32.png"
+              },
+              {
+                "width": 300,
+                "height": 300,
+                "size": 7011,
+                "relative_path": ".thumbs/Z-84 Motor mount for 1806 motor_PLA_14m22s-300x300.png"
+              }
+            ]
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703872762.628778,
+          "total_duration": 30.088646863001486,
+          "job_id": "000072",
+          "exists": false
+        },
+        {
+          "end_time": 1703843607.301913,
+          "filament_used": 131.4452000000001,
+          "filename": "CE3E3V2_Ender 3 Razer Kiyo mount - wall.gcode",
+          "metadata": {
+            "size": 1672162,
+            "modified": 1703843251.0704062,
+            "uuid": "36970616-b249-44de-8c9e-ecfaca9251e6",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 173,
+            "gcode_end_byte": 1670670,
+            "layer_count": 130,
+            "object_height": 26,
+            "estimated_time": 4785,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 4431.650000000001
+          },
+          "print_duration": 182.5992869619804,
+          "status": "error",
+          "start_time": 1703843255.813029,
+          "total_duration": 351.5499397099775,
+          "job_id": "00006E",
+          "exists": false
+        },
+        {
+          "end_time": 1703804430.913341,
+          "filament_used": 0,
+          "filename": "CE3E3V2_y_axis_rod_holder_left.gcode",
+          "metadata": {
+            "size": 8297504,
+            "modified": 1703803814.5560832,
+            "uuid": "53ed72b7-c6a7-4887-bc56-d26e53a22269",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 8296051,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 14145,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 15910.3
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703804350.6183748,
+          "total_duration": 80.26185762599926,
+          "job_id": "00006B",
+          "exists": false
+        },
+        {
+          "end_time": 1703803976.0402637,
+          "filament_used": 0,
+          "filename": "CE3E3V2_y_axis_rod_holder_left.gcode",
+          "metadata": {
+            "size": 8297504,
+            "modified": 1703803814.5560832,
+            "uuid": "53ed72b7-c6a7-4887-bc56-d26e53a22269",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 8296051,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 14145,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 15910.3
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703803819.7551844,
+          "total_duration": 156.1044233779976,
+          "job_id": "00006A",
+          "exists": false
+        },
+        {
+          "end_time": 1703791980.462241,
+          "filament_used": 102.48791999999958,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 134.84573244900093,
+          "status": "klippy_shutdown",
+          "start_time": 1703791694.8507645,
+          "total_duration": 285.5762617660075,
+          "job_id": "000068",
+          "exists": false
+        },
+        {
+          "end_time": 1703781900.8075023,
+          "filament_used": 10734.04327,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 6949.1237238070025,
+          "status": "error",
+          "start_time": 1703774797.5121536,
+          "total_duration": 7103.242761091999,
+          "job_id": "000066",
+          "exists": false
+        },
+        {
+          "end_time": 1703773760.1178696,
+          "filament_used": 0,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703773616.3918216,
+          "total_duration": 143.53317708100076,
+          "job_id": "000065",
+          "exists": false
+        },
+        {
+          "end_time": 1703772175.2644553,
+          "filament_used": 70.25146,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 69.85051257700252,
+          "status": "klippy_shutdown",
+          "start_time": 1703771943.0400922,
+          "total_duration": 231.98855907800316,
+          "job_id": "000064",
+          "exists": false
+        },
+        {
+          "end_time": 1703771470.7419658,
+          "filament_used": 0,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703771462.2127688,
+          "total_duration": 8.526804059001734,
+          "job_id": "000063",
+          "exists": false
+        },
+        {
+          "end_time": 1703770261.9276013,
+          "filament_used": 1040.65059,
+          "filename": "CE3E3V2_y_axis_motor_holder_right.gcode",
+          "metadata": {
+            "size": 6492853,
+            "modified": 1703769131.886324,
+            "uuid": "3baf1bc5-4eb0-421c-b0bb-154f7916c960",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 6491400,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12144,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12731.6
+          },
+          "print_duration": 962.6951647890019,
+          "status": "klippy_shutdown",
+          "start_time": 1703769136.6796153,
+          "total_duration": 1125.2020244150044,
+          "job_id": "000062",
+          "exists": false
+        },
+        {
+          "end_time": 1703766150.9445891,
+          "filament_used": 173.52211999999997,
+          "filename": "CE3E3V2_X-Knight Top plate with Hawkeye mount.gcode",
+          "metadata": {
+            "size": 908439,
+            "modified": 1703765769.3863432,
+            "uuid": "c22b5707-e904-4cfd-a364-960a083c092f",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 906986,
+            "layer_count": 55,
+            "object_height": 11,
+            "estimated_time": 1540,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 983.927
+          },
+          "print_duration": 222.54863434199797,
+          "status": "klippy_shutdown",
+          "start_time": 1703765773.9315832,
+          "total_duration": 376.7994582419997,
+          "job_id": "00005F",
+          "exists": false
+        },
+        {
+          "end_time": 1703764224.341437,
+          "filament_used": 0,
+          "filename": "CE3E3V2_X-Knight.gcode",
+          "metadata": {
+            "size": 528423,
+            "modified": 1703764212.3237374,
+            "uuid": "7da29340-9381-4814-891c-01542a0a0300",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 179,
+            "gcode_end_byte": 526970,
+            "layer_count": 47,
+            "object_height": 9.4,
+            "estimated_time": 997,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 816.7410000000001
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703764216.804032,
+          "total_duration": 7.48857307000435,
+          "job_id": "00005D",
+          "exists": false
+        },
+        {
+          "end_time": 1703752353.6397107,
+          "filament_used": 130.44188999999824,
+          "filename": "CE3E3V2_y_axis_motor_holder_left.gcode",
+          "metadata": {
+            "size": 6427184,
+            "modified": 1703752010.3705752,
+            "uuid": "5ec67d20-97ac-4018-b641-af035dca2a1e",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 177,
+            "gcode_end_byte": 6425731,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 12392,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 12779.8
+          },
+          "print_duration": 173.8299433200009,
+          "status": "error",
+          "start_time": 1703752014.9693418,
+          "total_duration": 338.7550037769979,
+          "job_id": "000059",
+          "exists": true
+        },
+        {
+          "end_time": 1703720127.371488,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Camera Screw 1_4.gcode",
+          "metadata": {
+            "size": 980386,
+            "modified": 1703720098.751923,
+            "uuid": "30c9bb7e-58e7-4095-ae32-b7c11d3dec7b",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 184,
+            "gcode_end_byte": 978899,
+            "layer_count": 144,
+            "object_height": 14.5,
+            "estimated_time": 1024,
+            "layer_height": 0.1,
+            "first_layer_height": 0.2,
+            "filament_total": 237.519
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703720103.2995028,
+          "total_duration": 23.89871337600016,
+          "job_id": "000054",
+          "exists": true
+        },
+        {
+          "end_time": 1703708444.7329688,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Kiyomount20.gcode",
+          "metadata": {
+            "size": 2595786,
+            "modified": 1703708324.8441114,
+            "uuid": "5cbd98ef-2e53-4d9c-a8de-c707b5898eae",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 183,
+            "gcode_end_byte": 2594332,
+            "layer_count": 63,
+            "object_height": 12.6,
+            "estimated_time": 4636,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 5217.65
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703708329.6101198,
+          "total_duration": 114.91035318500002,
+          "job_id": "000050",
+          "exists": true
+        },
+        {
+          "end_time": 1703676829.8379521,
+          "filament_used": 0,
+          "filename": "CE3E3V2_x_axis_carriage_left.gcode",
+          "metadata": {
+            "size": 7987346,
+            "modified": 1703676818.494833,
+            "uuid": "b327c12e-463d-44d6-b8bc-301cac650542",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 7985892,
+            "layer_count": 150,
+            "object_height": 30,
+            "estimated_time": 20612,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 27663.699999999997
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703676823.0198815,
+          "total_duration": 6.567233383000712,
+          "job_id": "00004E",
+          "exists": true
+        },
+        {
+          "end_time": 1703612656.4521966,
+          "filament_used": 50.542309999999986,
+          "filename": "CE3E3V2_x_axis_carriage_left.gcode",
+          "metadata": {
+            "size": 13147721,
+            "modified": 1703610884.19521,
+            "uuid": "7cce0f4c-e611-4e4e-ae4f-1466cc22946c",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 13146281,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 24085,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 29040.4
+          },
+          "print_duration": 41.12074441100003,
+          "status": "klippy_shutdown",
+          "start_time": 1703612514.282233,
+          "total_duration": 142.0265661960001,
+          "job_id": "000047",
+          "exists": false
+        },
+        {
+          "end_time": 1703611939.227024,
+          "filament_used": 942.21457,
+          "filename": "CE3E3V2_x_axis_carriage_left.gcode",
+          "metadata": {
+            "size": 13147721,
+            "modified": 1703610884.19521,
+            "uuid": "7cce0f4c-e611-4e4e-ae4f-1466cc22946c",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 13146281,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 24085,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 29040.4
+          },
+          "print_duration": 847.410225197,
+          "status": "error",
+          "start_time": 1703610940.6539457,
+          "total_duration": 998.4674987850001,
+          "job_id": "000045",
+          "exists": false
+        },
+        {
+          "end_time": 1703592982.765087,
+          "filament_used": 0,
+          "filename": "CE3E3V2_x_axis_carriage_right.gcode",
+          "metadata": {
+            "size": 13386943,
+            "modified": 1703592954.3295662,
+            "uuid": "669cd9c2-0b19-41d3-817f-e53da291fbe2",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 178,
+            "gcode_end_byte": 13385512,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 24401,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 28447.9
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703592958.9560442,
+          "total_duration": 23.6745614499996,
+          "job_id": "000043",
+          "exists": false
+        },
+        {
+          "end_time": 1703546830.186594,
+          "filament_used": 30,
+          "filename": "CE3E3V2_calicat.gcode",
+          "metadata": {
+            "size": 737472,
+            "modified": 1703546648.8255227,
+            "uuid": "c0dbca8f-18d7-4f39-8cce-16365d2f0479",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 181,
+            "gcode_end_byte": 736133,
+            "layer_count": 173,
+            "object_height": 34.6,
+            "estimated_time": 3413,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 3472.14
+          },
+          "print_duration": 3.2585620300014853,
+          "status": "klippy_shutdown",
+          "start_time": 1703546653.1495554,
+          "total_duration": 176.88017977700292,
+          "job_id": "00003B",
+          "exists": false
+        },
+        {
+          "end_time": 1703543005.1534686,
+          "filament_used": 30,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 4.263613539998914,
+          "status": "klippy_shutdown",
+          "start_time": 1703542840.1252234,
+          "total_duration": 165.0255579579989,
+          "job_id": "000038",
+          "exists": true
+        },
+        {
+          "end_time": 1703538661.91298,
+          "filament_used": 77.32088,
+          "filename": "CE3E3V2_NEMA42 Cable Clip (2).gcode",
+          "metadata": {
+            "size": 918217,
+            "modified": 1703530612.3768175,
+            "uuid": "eb130dac-575d-4045-942a-4d80b86f3966",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 173,
+            "gcode_end_byte": 916878,
+            "layer_count": 60,
+            "object_height": 12,
+            "estimated_time": 2211,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 1809.6200000000001
+          },
+          "print_duration": 65.46308153800055,
+          "status": "klippy_shutdown",
+          "start_time": 1703538418.9274523,
+          "total_duration": 242.84386271999938,
+          "job_id": "000034",
+          "exists": true
+        },
+        {
+          "end_time": 1703531054.2186584,
+          "filament_used": 56.207719999999995,
+          "filename": "CE3E3V2_NEMA42 Cable Clip (2).gcode",
+          "metadata": {
+            "size": 918217,
+            "modified": 1703530612.3768175,
+            "uuid": "eb130dac-575d-4045-942a-4d80b86f3966",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 173,
+            "gcode_end_byte": 916878,
+            "layer_count": 60,
+            "object_height": 12,
+            "estimated_time": 2211,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 1809.6200000000001
+          },
+          "print_duration": 38.112589881000076,
+          "status": "klippy_shutdown",
+          "start_time": 1703530869.1406806,
+          "total_duration": 184.84762175200012,
+          "job_id": "000033",
+          "exists": true
+        },
+        {
+          "end_time": 1703530664.9442682,
+          "filament_used": 0,
+          "filename": "CE3E3V2_NEMA42 Cable Clip (2).gcode",
+          "metadata": {
+            "size": 918217,
+            "modified": 1703530612.3768175,
+            "uuid": "eb130dac-575d-4045-942a-4d80b86f3966",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 173,
+            "gcode_end_byte": 916878,
+            "layer_count": 60,
+            "object_height": 12,
+            "estimated_time": 2211,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 1809.6200000000001
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703530615.7937472,
+          "total_duration": 49.00114076199998,
+          "job_id": "000032",
+          "exists": true
+        },
+        {
+          "end_time": 1703529774.5189078,
+          "filament_used": 54.31174,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 38.11715357899993,
+          "status": "klippy_shutdown",
+          "start_time": 1703529563.6279845,
+          "total_duration": 210.7417271070001,
+          "job_id": "000031",
+          "exists": true
+        },
+        {
+          "end_time": 1703480990.1465247,
+          "filament_used": 93.55124000000069,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_lid.gcode",
+          "metadata": {
+            "size": 222299,
+            "modified": 1703480766.1741343,
+            "uuid": "bd8c6a4c-ff93-4195-886d-647e9267b5ab",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 168,
+            "gcode_end_byte": 220961,
+            "layer_count": 15,
+            "object_height": 3,
+            "estimated_time": 5959,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 7007.240000000001
+          },
+          "print_duration": 67.48049721400457,
+          "status": "klippy_shutdown",
+          "start_time": 1703480770.4515278,
+          "total_duration": 219.4846851770053,
+          "job_id": "00002F",
+          "exists": false
+        },
+        {
+          "end_time": 1703456713.5049145,
+          "filament_used": 7251.39145,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 985605,
+            "modified": 1703451420.5317118,
+            "uuid": "3dee4cfe-f7ff-4ca1-a6f2-6d1757eb9458",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 180,
+            "gcode_end_byte": 984163,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 4568,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 7311.4
+          },
+          "print_duration": 5142.672448299001,
+          "status": "error",
+          "start_time": 1703451461.2369478,
+          "total_duration": 5252.449192996,
+          "job_id": "00002C",
+          "exists": true
+        },
+        {
+          "end_time": 1703451370.1196167,
+          "filament_used": 706.58336,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 3714279,
+            "modified": 1703449938.4399154,
+            "uuid": "36494997-6fb1-4ae7-921b-deeb1cbb2c6d",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 3712924,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 14624,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 13510.8
+          },
+          "print_duration": 990.9115378510014,
+          "status": "error",
+          "start_time": 1703450277.5414133,
+          "total_duration": 1092.6935391140014,
+          "job_id": "00002B",
+          "exists": false
+        },
+        {
+          "end_time": 1703450205.8854535,
+          "filament_used": 164.79482,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 3714279,
+            "modified": 1703449938.4399154,
+            "uuid": "36494997-6fb1-4ae7-921b-deeb1cbb2c6d",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 3712924,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 14624,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 13510.8
+          },
+          "print_duration": 117.14177229899997,
+          "status": "klippy_shutdown",
+          "start_time": 1703449943.0299978,
+          "total_duration": 262.7241731289996,
+          "job_id": "00002A",
+          "exists": false
+        },
+        {
+          "end_time": 1703449804.8974466,
+          "filament_used": 0,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 3684972,
+            "modified": 1703449772.576481,
+            "uuid": "10f0de22-e7fe-4508-a745-1b8b147c3ef8",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 3683623,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 14501,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 13510.8
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703449777.283777,
+          "total_duration": 27.611145301999386,
+          "job_id": "000029",
+          "exists": false
+        },
+        {
+          "end_time": 1703449647.7945898,
+          "filament_used": 0,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 4514097,
+            "modified": 1703449631.6049666,
+            "uuid": "63a6bc58-3e6f-4c0f-bbd8-0ab063c0a490",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 4512838,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 19595,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19694.3
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703449636.2723932,
+          "total_duration": 11.359479890999864,
+          "job_id": "000028",
+          "exists": false
+        },
+        {
+          "end_time": 1703449574.201283,
+          "filament_used": 0,
+          "filename": "CE3E3V2_square_tower.gcode",
+          "metadata": {
+            "size": 4494582,
+            "modified": 1703449514.4053745,
+            "uuid": "89a4e6bb-7f33-44a2-9a7e-24fb30f5a27f",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 4493323,
+            "layer_count": 250,
+            "object_height": 50,
+            "estimated_time": 19547,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19629.2
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703449519.0383065,
+          "total_duration": 54.97192310399987,
+          "job_id": "000027",
+          "exists": false
+        },
+        {
+          "end_time": 1703449185.6679173,
+          "filament_used": 60.641009999999994,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories.gcode",
+          "metadata": {
+            "size": 4814208,
+            "modified": 1703448874.4397323,
+            "uuid": "a1e32489-ebf4-4aae-859d-9e584eacd879",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4813081,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17457,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 84.0251166349999,
+          "status": "error",
+          "start_time": 1703448981.0454526,
+          "total_duration": 204.6366365370004,
+          "job_id": "000026",
+          "exists": false
+        },
+        {
+          "end_time": 1703448913.8375432,
+          "filament_used": 0,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories.gcode",
+          "metadata": {
+            "size": 4814208,
+            "modified": 1703448874.4397323,
+            "uuid": "a1e32489-ebf4-4aae-859d-9e584eacd879",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4813081,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17457,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703448879.2428603,
+          "total_duration": 34.43759024799965,
+          "job_id": "000025",
+          "exists": false
+        },
+        {
+          "end_time": 1703448795.2181034,
+          "filament_used": 84.93997999999999,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories.gcode",
+          "metadata": {
+            "size": 4814298,
+            "modified": 1703448414.2537403,
+            "uuid": "27a4ca7a-ccc4-42f9-b971-57ff983031a2",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4813233,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17854,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 67.76948070300023,
+          "status": "error",
+          "start_time": 1703448610.646691,
+          "total_duration": 184.40615065900056,
+          "job_id": "000024",
+          "exists": false
+        },
+        {
+          "end_time": 1703448019.8961744,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703448005.8403497,
+          "total_duration": 13.918567754999458,
+          "job_id": "000022",
+          "exists": true
+        },
+        {
+          "end_time": 1703444528.0507967,
+          "filament_used": 54.53768000000001,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories.gcode",
+          "metadata": {
+            "size": 4809576,
+            "modified": 1703444339.4369752,
+            "uuid": "bcae3363-312a-4fad-b5bc-fe2b3486e40e",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4808511,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17876,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.6
+          },
+          "print_duration": 67.46961601600015,
+          "status": "klippy_shutdown",
+          "start_time": 1703444344.2062254,
+          "total_duration": 183.64681118,
+          "job_id": "00001F",
+          "exists": false
+        },
+        {
+          "end_time": 1703444286.006752,
+          "filament_used": 59.00041,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories (1).gcode",
+          "metadata": {
+            "size": 4798502,
+            "modified": 1703411266.6510553,
+            "uuid": "5274b89c-45e2-4580-b216-bc94ce103793",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4797437,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17918,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 72.76955840999972,
+          "status": "error",
+          "start_time": 1703444109.9754512,
+          "total_duration": 176.07515425599968,
+          "job_id": "00001E",
+          "exists": true
+        },
+        {
+          "end_time": 1703442766.48107,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703442726.6128826,
+          "total_duration": 39.677931182000066,
+          "job_id": "00001C",
+          "exists": true
+        },
+        {
+          "end_time": 1703441431.242282,
+          "filament_used": 0,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories (1).gcode",
+          "metadata": {
+            "size": 4798502,
+            "modified": 1703411266.6510553,
+            "uuid": "5274b89c-45e2-4580-b216-bc94ce103793",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4797437,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17918,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703441416.2004104,
+          "total_duration": 14.906765931999985,
+          "job_id": "00001A",
+          "exists": true
+        },
+        {
+          "end_time": 1703413542.8907902,
+          "filament_used": 2898.9110599999985,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_left_case_-_raspberry_pi_and_accessories (1).gcode",
+          "metadata": {
+            "size": 4798502,
+            "modified": 1703411266.6510553,
+            "uuid": "5274b89c-45e2-4580-b216-bc94ce103793",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 4797437,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 17918,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 19396.4
+          },
+          "print_duration": 2079.282438322014,
+          "status": "error",
+          "start_time": 1703411271.5927677,
+          "total_duration": 2271.3838463210122,
+          "job_id": "000017",
+          "exists": true
+        },
+        {
+          "end_time": 1703381594.7214434,
+          "filament_used": 2167.21294,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 1355.0075343790013,
+          "status": "error",
+          "start_time": 1703380128.2027237,
+          "total_duration": 1466.4007978259979,
+          "job_id": "000015",
+          "exists": false
+        },
+        {
+          "end_time": 1703377873.1856692,
+          "filament_used": 45.95909,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 88.34351533099834,
+          "status": "error",
+          "start_time": 1703377632.955832,
+          "total_duration": 240.18547693899745,
+          "job_id": "000012",
+          "exists": false
+        },
+        {
+          "end_time": 1703377126.2783873,
+          "filament_used": 176.52087,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 214.84808038699703,
+          "status": "error",
+          "start_time": 1703376810.5309548,
+          "total_duration": 315.76514050499827,
+          "job_id": "000011",
+          "exists": false
+        },
+        {
+          "end_time": 1703376751.900584,
+          "filament_used": 359.76679,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 146.85477853699558,
+          "status": "klippy_shutdown",
+          "start_time": 1703376506.9713326,
+          "total_duration": 244.91242323999904,
+          "job_id": "000010",
+          "exists": false
+        },
+        {
+          "end_time": 1703376111.7197983,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703376022.6677191,
+          "total_duration": 88.90527861200098,
+          "job_id": "00000E",
+          "exists": true
+        },
+        {
+          "end_time": 1703375135.3308475,
+          "filament_used": 0,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703375131.570743,
+          "total_duration": 3.5433560399978887,
+          "job_id": "00000B",
+          "exists": false
+        },
+        {
+          "end_time": 1703375080.1724553,
+          "filament_used": 31.948410000000024,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 15.549691868996888,
+          "status": "klippy_shutdown",
+          "start_time": 1703374956.5267103,
+          "total_duration": 123.46741771399684,
+          "job_id": "00000A",
+          "exists": true
+        },
+        {
+          "end_time": 1703373156.8971906,
+          "filament_used": 199.29486,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 149.27494207799464,
+          "status": "klippy_shutdown",
+          "start_time": 1703372856.6476214,
+          "total_duration": 300.1922753539984,
+          "job_id": "000008",
+          "exists": false
+        },
+        {
+          "end_time": 1703372362.8742945,
+          "filament_used": 88.12439,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 59.957695185003104,
+          "status": "klippy_shutdown",
+          "start_time": 1703372164.996391,
+          "total_duration": 197.82354049699643,
+          "job_id": "000007",
+          "exists": false
+        },
+        {
+          "end_time": 1703372077.8525412,
+          "filament_used": 0,
+          "filename": "CE3E3V2_all_in_one_ender_3_case_-_right_case_-_mks_gen_l_or_skr13.gcode",
+          "metadata": {
+            "size": 2391702,
+            "modified": 1703372064.7980373,
+            "uuid": "8a5a23b4-aded-4b2d-a8c5-2fc0f6ea1f32",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 182,
+            "gcode_end_byte": 2390638,
+            "layer_count": 165,
+            "object_height": 33,
+            "estimated_time": 16506,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 17798.4
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703372069.3408737,
+          "total_duration": 8.358087132997753,
+          "job_id": "000006",
+          "exists": false
+        },
+        {
+          "end_time": 1703369684.9406,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703369665.639961,
+          "total_duration": 19.159063482999045,
+          "job_id": "000004",
+          "exists": true
+        },
+        {
+          "end_time": 1703366932.1581135,
+          "filament_used": 33.48099,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40638,
+            "modified": 1703366783.5933216,
+            "uuid": "e0842d3a-248f-4a08-ae3d-15f5213c7063",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39575,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.017
+          },
+          "print_duration": 17.803399577001983,
+          "status": "klippy_shutdown",
+          "start_time": 1703366787.9537413,
+          "total_duration": 144.14149666400044,
+          "job_id": "000002",
+          "exists": true
+        },
+        {
+          "end_time": 1703366536.417843,
+          "filament_used": 137.35559,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 40752,
+            "modified": 1703366327.634915,
+            "uuid": "26182672-6e6f-4918-8ed9-c672b15ddcc3",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 174,
+            "gcode_end_byte": 39689,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 309,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 269.02799999999996
+          },
+          "print_duration": 117.61304938199828,
+          "status": "klippy_shutdown",
+          "start_time": 1703366331.9906054,
+          "total_duration": 204.28150518199982,
+          "job_id": "000001",
+          "exists": false
+        },
+        {
+          "end_time": 1703366296.087315,
+          "filament_used": 0,
+          "filename": "CE3E3V2_Ender 3 Bed level test.gcode",
+          "metadata": {
+            "size": 89361,
+            "modified": 1703366129.936772,
+            "uuid": "897fd8a5-61ae-4044-b82c-1be0d8f7050c",
+            "slicer": "Cura",
+            "slicer_version": "5.4.0",
+            "gcode_start_byte": 165,
+            "gcode_end_byte": 88338,
+            "layer_count": 1,
+            "object_height": 0.2,
+            "estimated_time": 468,
+            "layer_height": 0.2,
+            "first_layer_height": 0.2,
+            "filament_total": 461.532
+          },
+          "print_duration": 0,
+          "status": "klippy_shutdown",
+          "start_time": 1703366144.0793695,
+          "total_duration": 151.99879291000252,
+          "job_id": "000000",
+          "exists": false
+        }
+      ]
+    },
+    "gcodefiles": {
+      "countPerPage": -1,
+      "orderMetadataColumns": [
+        "size",
+        "modified",
+        "last_start_time",
+        "last_end_time",
+        "last_total_duration",
+        "object_height",
+        "layer_height",
+        "first_layer_bed_temp",
+        "first_layer_extr_temp",
+        "nozzle_diameter",
+        "filament_name",
+        "filament_type",
+        "filament_total",
+        "filament_weight_total",
+        "estimated_time",
+        "last_print_duration",
+        "chamber_temp",
+        "last_filament_used",
+        "slicer"
+      ],
+      "hideMetadataColumns": [
+        "nozzle_diameter",
+        "filament_weight_total",
+        "estimated_time",
+        "chamber_temp",
+        "filament_type",
+        "last_print_duration",
+        "size",
+        "last_start_time",
+        "last_end_time",
+        "last_total_duration"
+      ],
+      "showHiddenFiles": false,
+      "showPrintedFiles": true
+    },
+    "toolhead": {
+      "showCoordinates": true,
+      "showSpeedFactor": true
+    }
+  },
+  "webcams": {
+    "acbddf87-6f18-4ed2-8e3b-ca0a2fed56f9": {
+      "name": "Printer",
+      "service": "mjpegstreamer-adaptive",
+      "targetFps": 5,
+      "urlStream": "/webcam/stream",
+      "urlSnapshot": "/webcam/snapshot",
+      "flipX": true,
+      "flipY": true,
+      "enabled": true,
+      "targetFpsIdle": 15,
+      "aspectRatio": "4:3",
+      "icon": "mdiPrinter3d",
+      "location": "printer",
+      "rotation": 0,
+      "extra_data": {
+        "hideFps": true
+      }
+    }
+  }
+}
